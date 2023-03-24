@@ -13,16 +13,16 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-let userWantsNumber = window.confirm(
+let userNumbers = window.confirm(
   "Like to include numbersin password"
 );
-let userWantsSymbols = window.confirm(
+let userSymbols = window.confirm(
   "Like to include symbols in password"
 );
-let userWantsLowerCase = window.confirm(
+let userLowerCase = window.confirm(
   "Like to include lower case in password"
 );
-let userWantsUpperCase = window.confirm(
+let userUpperCase = window.confirm(
   "Like to include upper case in password"
 );
 
@@ -57,7 +57,31 @@ let lowerCaseList = [
   "z",
 ];
 
-let upperCaseList = []
+let upperCaseList = [];
+
+for (let i = 0; i < lowerCaseList.length; i++) {
+  upperCaseList[i] = lowerCaseList[i]. toLocaleUpperCase();
+}
+ 
+if (userNumbers === true) {
+  optionCart.push(numberList)
+}
+
+if (userSymbols === true) {
+  optionCart.push(symbolsList)
+}
+
+if (userLowerCase === true) {
+  optionCart.push(lowerCaseList)
+}
+
+if (userUpperCase === true) {
+  optionCart.push(numberList)
+}
+
+let generatePassword == "";
+
+
 
 
 function writePassword()
