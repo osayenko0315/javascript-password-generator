@@ -30,8 +30,8 @@
 
 ## LInks
 
-* Link to code repository
-* Link to published page
+* Link to code repository https://github.com/osayenko0315/javascript-password-generator
+* Link to published page https://osayenko0315.github.io/javascript-password-generator/
 
 ## Sources
 
