@@ -1,5 +1,11 @@
 # javascript-password-generator
 
+## Features
+
+* To create a password generator in which the user has to provide a range of characters between 8 and 128.
+
+* The user will have to choose at least one of the given criterias: lower case, upper case, numbers & characters.
+
 ## User Story
 
 ```
